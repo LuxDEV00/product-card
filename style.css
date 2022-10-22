@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.geral {
+    display: flex;
+}
+
+img {
+    border-radius: 10px 0px 0px 10px;
+    width: 300px;
+}
+
+.texto {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 0px 10px 10px 0px;
+    max-width: 250px;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: 'Fraunces', serifa;
+    max-width: 230px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font: caption;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: hsl(228, 12%, 48%);
+}
+
+p {
+    font: caption;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+    max-width: 245px;
+}
+
+.preco {
+    font-size: 35px;
+    color: hsl(158, 36%, 37%);
+}
+
+.preco2, .preco {
+    display: flex;
+    float: left;
+    font-family: 'Fraunces', serifa;
+}
+
+.preco2 {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 70px;
+    background: hsl(158, 36%, 37%);
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Fraunces', serifa;
+    margin-top: 10px;
+}
